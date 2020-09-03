@@ -9,10 +9,17 @@ Proyecto [Angular CLI](https://github.com/angular/angular-cli) version 9.1.12 LT
         - `nvm install 12.13.0` / **Instala** una version específica de NodeJs
         - `nvm use 12.13.0` / **Cambia la version** de node que deseas usar
 
-## Limpirar errores
-
-- `npm run build`
-- `ng build`
+## Gestores de paquetes de Node
+1. NPM
+    - `npm install` **Instala las dependencias** del package.json
+    - `npm run build` Permite realizar cualquier tarea de construcción/preparación necesaria para el proyecto
+2. YARN
+    > Como tienes npm instalado, puedes usarlo para instalar yarn
+    - Instalar yarn: `npm install -g yarn` 
+    > Tienes que instalar la CLI de Angular a nivel global, pero esta vez en Yarn.
+    - Instalar la CLI de Angular en Yarn: `yarn global add @angular/cli`
+    > Utilizar yarn en vez de npm
+    - `yarn install` Utiliza yarn para **instalar las dependencias**
 
 ## Development server
 
@@ -20,7 +27,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+`ng build` Para **construir las aplicaciones y desplegar** los artefactos de construcción. Se almacenarán en la carpeta `dist/`. Usa `--prod` para una construcción de producción.
 
 ## Running unit tests
 
