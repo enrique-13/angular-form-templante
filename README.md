@@ -1,6 +1,6 @@
 # AngularSchoolC5
 
-Proyecto [Angular CLI](https://github.com/angular/angular-cli) version 9.1.12 LTS
+Proyecto [Angular CLI](https://github.com/angular/angular-cli) version 9.1.12 LTS & Node.js v12.14.0
    - **Install** `npm install -g @angular/cli@9.1.12` / Instala una versión espacífica de angular
    - Download NVM [Múltiples versiones de #Nodejs Windows10](https://github.com/coreybutler/nvm-windows/releases)
  => Video: [Link video](https://www.youtube.com/watch?v=iG4u1MK7N3I)
